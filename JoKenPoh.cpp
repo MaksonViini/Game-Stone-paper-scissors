@@ -54,31 +54,31 @@ int main()
         }
         if(comp==2)
         {
-            cout<< "Computador jogou: "<<comp<<endl;
-            cout<< "COMPUTADOR GANHOU"<<endl;
+            cout << "Computador jogou: " << comp<<endl;
+            cout << "COMPUTADOR GANHOU" << endl;
         }
     }
-    if(jogador==2)
+    if(jogador == 2)
     {
-        if(comp==0)
+        if(comp == 0)
         {
-            cout<< "Computador jogou: "<<comp<<endl;
-            cout<< "COMPUTADOR GANHOU"<<endl;
+            cout << "Computador jogou: " <<comp <<endl;
+            cout << "COMPUTADOR GANHOU" << endl;
         }
-        if(comp==1)
+        if(comp == 1)
         {
-            cout<< "Computador jogou: "<<comp<<endl;
-            cout<< "JOGADOR GANHOU"<<endl;
+            cout << "Computador jogou: " << comp << endl;
+            cout << "JOGADOR GANHOU" << endl;
         }
-        if(comp==2)
+        if(comp == 2)
         {
-            cout<< "Computador jogou: "<<comp<<endl;
-            cout<< "EMPATE"<<endl;
+            cout << "Computador jogou: "<<comp<<endl;
+            cout << "EMPATE"<<endl;
         }
     }
-    cout<< "OBRIGADO POR JOGAR"<< endl;
-    cout<< "Quer jogar novamente???"<<endl;
-    cin>>novamente;
+    cout << "OBRIGADO POR JOGAR"<< endl;
+    cout << "Quer jogar novamente???"<<endl;
+    cin >> novamente;
 
     }
 }
