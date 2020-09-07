@@ -48,7 +48,7 @@ int main() {
             cout << "COMPUTADOR GANHOU" << endl;
         }
     }
-    if(jogado r == 2) {
+    if(jogador == 2) {
         if(comp == 0) {
             cout << "Computador jogou: " << comp << endl;
             cout << "COMPUTADOR GANHOU" << endl;
