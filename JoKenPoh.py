@@ -14,7 +14,7 @@ while True:
     sleep(1)
     print("POHH!!")
     print("-=-" * 15)
-    print(f"computador jogou {itens[jogador]} ".upper())
+    print(f"computador jogou {itens[computador]} ".upper())
     print(f"Voce jogou {itens[jogador]} ".upper())
     print("-=-" * 15)
     if(computador == 0):
